@@ -1,0 +1,12 @@
+name: Test Action
+
+on:
+  workflow_dispatch: # allows manual trigger
+  push: # optional - runs when you push code
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f2003062@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
